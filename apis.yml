@@ -1,24 +1,80 @@
 aid: balerion
 name: Balerion
-description: 'Balerion is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Balerion (Balerion AI) is a San Francisco-based agentic AI platform for
+  mortgage loan origination, underwriting, and processing. Its flagship product,
+  Loan Intelligence, is an agentic reasoning engine embedded directly into the
+  origination workflow that automates the loan manufacturing lifecycle — complex
+  high-precision income calculation, guideline validation, document checks, and
+  identifying derogatory conditions in bank and credit data through underwriting
+  and closing. The company raised a $6M seed round in April 2026 led by Kleiner
+  Perkins with participation from Formation and BoxGroup, and was co-founded by
+  CEO Naren Krishna (previously a founding member of Snowflake-acquired Ponder)
+  and CTO Vishal Satish. Early customers include residential lender FM Home
+  Loans. As of this profile Balerion publishes a marketing website only — no
+  public API, developer portal, documentation, or SDKs are available.
 url: https://raw.githubusercontent.com/api-evangelist/balerion/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/H8LKBpfDeGWelhLc2gAoFzNnHY.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - kleiner-perkins
+- formation
+- boxgroup
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Mortgage
+- Lending
+- Underwriting
+- Agentic AI
+- Loan Origination
+- Financial Services
 apis: []
+common:
+- type: TrustCenter
+  url: security/balerion-trust-center.yml
+- type: Compliance
+  url: https://trust.balerion.ai/
+- type: Website
+  url: https://balerion.ai
+- type: Company
+  url: https://balerion.ai/company
+- type: Product
+  url: https://balerion.ai/product
+- type: Press
+  url: https://balerion.ai/press
+- type: GitHubOrganization
+  url: https://github.com/balerion-ai
+- type: X
+  url: https://x.com/BalerionAI
+- type: LinkedIn
+  url: https://www.linkedin.com/company/balerion-ai/
+- type: DomainSecurity
+  url: security/balerion-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
